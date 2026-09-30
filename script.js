@@ -19,3 +19,10 @@ class compound extends flashcard {
         this.saturated = saturated;
     }
 }
+
+class prefix extends flashcard {
+    constructor (prfx, noCrbns) {
+        this.prefix = prfx;
+        this.numCarbons = noCrbns;
+    }
+}
