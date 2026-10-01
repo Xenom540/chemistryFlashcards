@@ -43,5 +43,13 @@ function pickRand(arr) {
         messages.push("What series is " + card + "in?");
         messages.push("What is the chemical formula of " + card + "?");
         messages.push("Is " + card + "saturated?");
+
+        for (let i = 0; i < messages.length; i++) {
+            messages.pop();
+        }
+    }
+
+    else if (typeof card === prefix) {
+        messages.push("How many carbons do molecules with the prefix \"" + card.prefix + "\" have?")
     }
 }
