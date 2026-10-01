@@ -26,3 +26,12 @@ class prefix extends flashcard {
         this.numCarbons = noCrbns;
     }
 }
+
+const alkanes = [];
+const alkenes = [];
+const cycloalkanes = [];
+const cycloalkenes = [];
+
+function pickRand() {
+
+}
