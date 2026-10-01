@@ -27,11 +27,17 @@ class prefix extends flashcard {
     }
 }
 
+const compounds = [];
+
 const alkanes = [];
 const alkenes = [];
 const cycloalkanes = [];
 const cycloalkenes = [];
 
-function pickRand() {
+const prefixes = [];
 
+function pickRand(arr) {
+    const card = arr[Math.random() * arr.length];
+    let message;
+    if (typeof card === compound)
 }
