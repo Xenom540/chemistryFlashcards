@@ -50,6 +50,6 @@ function pickRand(arr) {
     }
 
     else if (typeof card === prefix) {
-        messages.push("How many carbons do molecules with the prefix \"" + card.prefix + "\" have?")
+        messages.push("How many carbons do molecules with the prefix \"" + card.prefix + "\" have?");
     }
 }
