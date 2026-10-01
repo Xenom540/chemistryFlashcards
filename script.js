@@ -38,6 +38,10 @@ const prefixes = [];
 
 function pickRand(arr) {
     const card = arr[Math.random() * arr.length];
-    let message;
-    if (typeof card === compound)
+    let messages = [];
+    if (typeof card === compound) {
+        messages.push("What series is " + card + "in?");
+        messages.push("What is the chemical formula of " + card + "?");
+        messages.push("Is " + card + "saturated?");
+    }
 }
